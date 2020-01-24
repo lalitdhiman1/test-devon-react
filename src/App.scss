@@ -1,0 +1,35 @@
+.header{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 50px;
+  height: 50px;
+  background: #ccc;
+  align-items: center;
+  .header__addContact{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 10px;
+  }
+}
+.noContact{
+  text-align: center;
+  padding: 30px;
+}
+.nodata__addContact{
+  margin: 0 auto;
+}
+
+table td span::after{
+content: ', ';
+}
+table td span:last-child::after{
+  content: ' ';
+  }
+.locationName label{
+padding-left:5px
+}
+  .error{
+    color: red;
+    font-size: 12px;
+  }
